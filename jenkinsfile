@@ -7,7 +7,7 @@ pipeline{
     stages {
         stage('Repositório de Código'){
           steps{
-            git url: 'https://gitlab.com/o_sgoncalves/juice-shop-teste',
+            git url: 'https://github.com/juam-sv/juice-shop',
                 branch: 'master'
             stash 'devsec-repositorio'
           }
